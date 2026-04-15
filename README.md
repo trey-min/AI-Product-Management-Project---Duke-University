@@ -24,15 +24,24 @@ The model identifies Ambient Temperature as the critical driver of output loss, 
 
 👉 View Interactive Presentation
 
-🚀 Project 2: [Upcoming Project Title]
+🚀 Project 2: DVVI Predictive Inventory & Demand Forecaster
+📌 Project Overview
+The objective of this project is to extend the DVVI pricing engine by developing a predictive model for Inventory Velocity. By analyzing regional micro-market shifts and macroeconomic triggers, the platform forecasts vehicle demand to optimize dealership stock acquisition and turnover rates.
 
-Status: Planned / In-Progress
+🛠️ Technical Implementation
 
-Objective: Briefly describe the goal of your next project here.
+Modeling Approach: Identified as a Time-Series Forecasting and Classification task to categorize inventory based on "Liquidity Risk" and seasonal demand.
 
-Key Skills: e.g., Classification, Data Privacy, or ROI Analysis.
+Feature Engineering: Integrates historical sales velocity with external datasets, including fuel price volatility, interest rate fluctuations, and localized supply-to-demand ratios.
 
-Tools: e.g., Google AutoML, Python.
+System Design: Developed using Python (Prophet) and BigQuery ML to process large-scale transactional data, providing a scalable infrastructure for multi-region demand heatmapping.
+
+Performance Targets: Aiming for a 15% reduction in MAPE for inventory turnover predictions compared to traditional 30-day moving average methods.
+
+💡 Business Value
+The model enables "Demand-First" Acquisition, directly increasing dealership ROI by reducing the Days-to-Turn metric. By identifying high-liquidity vehicle segments before market shifts, the platform minimizes "lot aging" costs and maximizes cash flow efficiency.
+
+👉 View Interactive Presentation
 
 📈 Project 3: [Upcoming Project Title]
 
